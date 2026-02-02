@@ -10,5 +10,5 @@ public class Constants
     public static string PlayerName = "Guest";
     public static string PlayerRole = "Client";
     
-    public static string DB_URL = "https://maam-netplay-local-default-rtdb.firebaseio.com/";
+    public static string DB_URL = "https://puzze-59f79-default-rtdb.firebaseio.com";
 }

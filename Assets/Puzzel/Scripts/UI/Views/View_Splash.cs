@@ -24,6 +24,7 @@ public class View_Splash : View_Base
         bool isInternetActive = CheckForInternetConnection();
         if (isInternetActive)
         {
+            Debug.Log("Internet Activate");
             StartCoroutine(StartLoading());
             InitializeFirebaseAsync();
         }
@@ -42,7 +43,11 @@ public class View_Splash : View_Base
     {
         base.Init();
     }
-
+    private void Start() 
+    {
+        Debug.Log("Enter5ing in script");
+        
+    }
     private bool CheckForInternetConnection()
     {
         if (Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork)
