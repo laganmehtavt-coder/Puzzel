@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740240316782",
+    "project_id": "maam-netplay-local",
+    "storage_bucket": "maam-netplay-local.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740240316782:android:1716f9f02d0e0c430f097f",
+        "android_client_info": {
+          "package_name": "com.defaultcompany.netplaylocal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcCCCZBnn7tLRP1j4ddMYvR-uq1klGc2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
